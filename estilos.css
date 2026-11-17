@@ -1,0 +1,65 @@
+body {
+    background-color: #ebded1;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #a05272;
+}
+
+h2 {
+    color: #333333;
+}
+
+p {
+    font-size: 18px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.producto {
+    margin: 20px;
+}
+
+.producto label {
+    display: inline-block;
+    width: 180px;
+    font-size: 17px;
+}
+
+input {
+    width: 80px;
+    padding: 8px;
+}
+
+button {
+    background-color: #a05272;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #773b54;
+}
+
+#resultado {
+    color: #a05272;
+}

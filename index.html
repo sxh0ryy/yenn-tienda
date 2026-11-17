@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>LABUBU DU PAICHEN</title>
+    <link rel="stylessheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>LABUBU DU PAICHEN</h1>
+
+    <h2>Bienvenidos a nuestra tienda</h2>
+
+    <p>
+        Somos una tienda dedicada a la venta de bolsas.
+        Ofrecemos diferentes modelos, tamaños y estilos
+        para todos los gustos.
+    </p>
+
+    <h2>Nuestra Galeria</h2>
+
+    <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Bolsa de mano">
+        <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400" alt="Bolsa elegante">
+        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400" alt="Bolsa de mujer">
+    </div>
+
+    <h2>elegir articulos</h2>
+
+    <form>
+
+        <div class="producto">
+            <label>Bolsa Chanel - $1500</label>
+            <input type="number" id="chanel" min="0" value="0">
+        </div>
+
+        <div class="producto">
+            <label>Bolsa Guess - $1200</label>
+            <input type="number" id="guess" min="0" value="0">
+        </div>
+
+        <div class="producto">
+            <label>Bolsa Tote - $800</label>
+            <input type="number" id="tote" min="0" value="0">
+        </div>
+
+        <br>
+
+        <button type="button" onclick="comprar()">
+            COMPRAR
+        </button>
+
+    </form>
+
+    <h3 id="resultado"></h3>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
